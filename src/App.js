@@ -4,7 +4,7 @@ import React, {useEffect,useState} from 'react';
 import './App.css';
 import {Row } from 'reactstrap';
 import CurrencyInput from './Components/CurrencyRow';
-const BASE_URL = 'http://api.exchangeratesapi.io/v1/latest?access_key=e458d4429a0d56325694fb7365d7d173';
+const BASE_URL = 'http://api.exchangeratesapi.io/v1/latest?access_key=Your_API_Key';
 function App() {
 
   const [currencyOptions, setCurrencyOptions]= useState([]);
